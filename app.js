@@ -21,9 +21,9 @@ app.use(bodyParser.json());
 app.use(cors())
 
 // Asocia las rutas de clientes, detalles de compras y pedidos a las rutas base "/api/clientes", "/api/detallesCompras" y "/api/pedidos", respectivamente
-app.use("/api/donador", donadorRutes);
+app.use("/donador", donadorRutes);
 // app.use("/api/detallesCompras", detalleCompraRoutes);
-app.use("/api/donacion", donacionRoutes);
+app.use("/donacion", donacionRoutes);
 
 
 // Middleware para manejar errores cuando no se encuentra una ruta
